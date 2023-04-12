@@ -17,7 +17,14 @@ const library = [
 ];
 
 const numberOfBooksRead = () => {
-  // write your code here
+	library.map(myfunction);
+	function myfunction(item){
+		let c=0;
+		if(item.readingStatus == true){
+			c++;
+		}
+	}
+	return c;
 };
 
 // Do not change the code below
